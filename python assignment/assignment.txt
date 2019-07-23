@@ -1,0 +1,33 @@
+# Multiply 3 and any number
+
+numbers = [1,2,3,6]
+def sumOfListNumbers(someList):
+    sum = 0
+    for item in someList:
+        sum = sum + item
+    return sum
+
+print(sumOfListNumbers(numbers))
+_____________________________________________________________________
+# adds two numbers together
+
+def add(a,b):
+   result = a + b
+   return result
+
+num1 = int(input("Enter first number: "))
+num2 = int(input("Enter first number: "))
+
+print("The sum is", add(num1, num2))
+
+==============================================================
+# Data structure
+
+def mult(a):
+   b = 3 * a
+   return b
+
+num1 = 3
+num2 = int(input("Enter any number: "))
+
+print("The result is", mult(num2))
